@@ -1,1 +1,1 @@
-https://github.com/mariscraps/ono-tebe-nado-ad/
+https://github.com/mariscraps/ono-tebe-nado-ad
