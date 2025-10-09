@@ -5,7 +5,7 @@
   height: 293px;
   width: 1100px;
   grid-template-columns: 1fr min-content 1fr;
-  align-items: center; 
+  align-items: center;
 }
 
 .header__menu {
@@ -29,7 +29,7 @@
   gap: 33px;
   text-decoration-skip-ink: none;
   text-underline-offset: 2px;
-  text-underline-position: from-font; 
+  text-underline-position: from-font;
 }
 
 .header__links-list-item_no-bullit {
@@ -186,11 +186,11 @@
 .lots-list {
   list-style: none;
   display: flex;
-  gap: 25px; 
+  gap: 25px;
 }
 
 .lot-item {
-  width: 336px; 
+  width: 336px;
   height: 596px;
   position: relative;
 }
@@ -225,7 +225,7 @@
   height: 100%;
   display: flex;
   flex-direction: column; 
-  justify-content: space-between; 
+  justify-content: space-between;
   background-size: cover;
   background-position: bottom;
   overflow: hidden;
@@ -247,7 +247,7 @@
   background-repeat: no-repeat;
 }
 
-.overlay {
+.overlay_second {
   position: absolute;
   top: 0;
   left: 0;
@@ -295,34 +295,33 @@
 }
 
 .lots .more {
-position: absolute; 
-font-style: normal;
-left: 40px;
-bottom: -2px;
-width: 194px;
-height: 25px;
-display: flex;
-flex-direction: column; 
-justify-content: flex-end;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-text-underline-position: from-font;
-text-underline-offset: 3px;
-font-family: "Raleway", sans-serif;
-margin-left: 4px;
-margin-bottom: 3px;
-
+  position: absolute; 
+  font-style: normal;
+  left: 40px;
+  bottom: -2px;
+  width: 194px;
+  height: 25px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-end;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+  text-underline-offset: 3px;
+  font-family: "Raleway", sans-serif;
+  margin-left: 4px;
+  margin-bottom: 3px;
 }
 
 .lots .text-wrapper {
-width: 192px;
-height: 23px;
-font-weight: 400;
-color: #000000;
-font-size: 20px;
-letter-spacing: 0;
-line-height: normal;
-white-space: nowrap;
+  width: 192px;
+  height: 23px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
 
 .lots .title {
@@ -412,7 +411,7 @@ white-space: nowrap;
   height: 180px;
   width: 1100px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   padding-right: 50px;
   padding-left: 50px;
@@ -498,7 +497,6 @@ white-space: nowrap;
 }
 
 .footer__social-link {
-  display: block;
   width: 48px;
   height: 48px;
   border-radius: 50%;
