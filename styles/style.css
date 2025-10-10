@@ -42,8 +42,9 @@
 
 .header__logo-image {
   display: block;
-  width: 138px;
-  height: 151px;
+  width: 135px;
+  height: 152px;
+  padding-bottom: 3px;
 }
 
 .contacts {
@@ -61,7 +62,7 @@
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
-  text-underline-offset: 4px;
+  text-underline-offset: 3.5px;
   text-decoration-skip-ink: none;
   list-style: none;
   margin-bottom: 2.5px;
